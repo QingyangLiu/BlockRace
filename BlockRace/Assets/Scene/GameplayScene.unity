@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59cda11a781b4b70a3378625fc16411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spherelocation: {fileID: 345090833}
+  spherelocation: {fileID: 345090827}
 --- !u!1 &242711106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,8 +1689,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1785629427}
   - component: {fileID: 1785629430}
-  - component: {fileID: 1785629429}
   - component: {fileID: 1785629428}
+  - component: {fileID: 1785629429}
   - component: {fileID: 1785629431}
   m_Layer: 5
   m_Name: Slider
@@ -1742,7 +1742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59cda11a781b4b70a3378625fc16411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spherelocation: {fileID: 345090833}
+  spherelocation: {fileID: 345090827}
 --- !u!114 &1785629430
 MonoBehaviour:
   m_ObjectHideFlags: 0

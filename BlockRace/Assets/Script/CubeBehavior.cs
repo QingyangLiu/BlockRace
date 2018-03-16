@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CubeBehavior : MonoBehaviour {
 
+	public GameObject shatter;
 	// Use this for initialization
 	void Start () {
 		
@@ -16,6 +17,7 @@ public class CubeBehavior : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision){
 		if (collision.gameObject.name=="Sphere") {
+			Instantiate (shatter, transform.position, transform.rotation);
 			Destroy (gameObject);
 		}
 	}
